@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar class="myOwn" dark>
+    <v-toolbar class="primary" dark>
       <v-toolbar-title @click="goHome" style="cursor: pointer">Vuetify</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>

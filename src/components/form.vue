@@ -1,7 +1,7 @@
 <template>
 <v-container>
     <v-layout row wrap>
-        <v-flex xs6 offset-xs3>
+        <v-flex xs12 md6 offset-md3>
             <v-card>
                 <v-card-text>
                     <v-container>

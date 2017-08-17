@@ -1,7 +1,7 @@
 <template>
 <v-container>
     <v-layout column wrap>
-        <v-flex xs12>
+        <v-flex xs8 offset-xs2>
         <h4 class="black--text">
             Tu będzie karuzela
         </h4>
