@@ -10,7 +10,7 @@
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
-    <main class="blue-grey lighten-4">
+    <main>
       <router-view></router-view>
     </main>
   </v-app>
