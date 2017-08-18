@@ -1,21 +1,10 @@
 <template>
 <v-container>
-    <v-layout column wrap>
-        <v-flex xs8 offset-xs2>
-        <h4 class="black--text">
-            Tu będzie karuzela
-        </h4>
-        <v-carousel>
-            <v-carousel-item
-            v-for="(pic, i) in pictures"
-            :key="i"
-            :src="pic.src"
-            transition="fade"
-            reverseTransition="fade"
-            ></v-carousel-item>
-        </v-carousel>
-        </v-flex>
-    </v-layout>
+  <v-layout column>
+    <v-flex xs12 md8 offset-md2 mt-4>
+      
+    </v-flex>
+  </v-layout>
 </v-container>
 </template>
 

@@ -1,19 +1,5 @@
 <template>
-  <v-app>
-    <v-toolbar class="primary" dark>
-      <v-toolbar-title @click="goHome" style="cursor: pointer">Vuetify</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-toolbar-items>
-        <v-btn flat v-for="item in menuItems" :key="item.title" :to="item.link">
-          <v-icon left>{{ item.icon }}</v-icon>
-          {{ item.title }}
-        </v-btn>
-      </v-toolbar-items>
-    </v-toolbar>
-    <main>
-      <router-view></router-view>
-    </main>
-  </v-app>
+
 </template>
 
 <script>
